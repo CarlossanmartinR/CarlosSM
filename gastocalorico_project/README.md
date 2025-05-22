@@ -22,7 +22,7 @@ Este proyecto tiene como objetivo predecir el gasto calórico de individuos util
 2. **Preprocesamiento**
    - Tratamiento de outliers utilizando **winsorizing por IQR**.
    - Conversión de variables categóricas (por ejemplo, `Sex`) a formato numérico.
-   - Creación de nuevas variables derivadas como **IMC (Índice de Masa Corporal)** y **age_interval**.
+   - Creación de nuevas variables derivadas como **IMC (Índice de Masa Corporal)**.
 
 3. **Selección de características**
    - Se evaluaron las correlaciones entre variables y se aplicó ingeniería de características.
