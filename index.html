@@ -1,46 +1,125 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mini Taladro Eléctrico Multiuso – Producto Destacado</title>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mini Taladro Eléctrico Multiuso</title>
   <style>
-    body { margin:0; font-family: Arial, sans-serif; background:#f9f9f9; color:#333; }
-    header { background:#0077cc; color:white; padding:20px; text-align:center; }
-    .container { max-width:900px; margin:auto; padding:20px; background:white; }
-    .gallery { text-align:center; }
-    .gallery img { max-width:100%; height:auto; margin:10px 0; }
-    h1 { margin-top:0;}
-    .price { color:#e60023; font-size:1.5em; margin:10px 0; }
-    .features { margin:20px 0; }
-    .features ul { list-style: disc inside; }
-    .cta-btn { display:inline-block; padding:15px 30px; background:#e60023; color:white; text-decoration:none; font-size:1.2em; border-radius:5px; transition:background .3s; }
-    .cta-btn:hover { background:#c4001f; }
-    footer { text-align:center; padding:20px; font-size:0.9em; color:#777; }
+    /* Reset básico */
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { font-family: 'Segoe UI', Tahoma, sans-serif; background: #f4f4f4; color: #333; line-height: 1.6; }
+
+    header {
+      background: #0077cc;
+      color: #fff;
+      padding: 1.5rem 1rem;
+      text-align: center;
+    }
+    header h1 { font-size: 1.8rem; margin-bottom: 0.5rem; }
+    header p { font-size: 1rem; }
+
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      background: #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 2rem;
+      border-radius: 8px;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+      margin-bottom: 1.5rem;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 280px;
+      border-radius: 4px;
+      box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+    }
+
+    .price {
+      color: #e60023;
+      font-size: 1.6rem;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    .features h2 {
+      margin-bottom: 0.5rem;
+      color: #0077cc;
+    }
+    .features ul {
+      margin-left: 1.2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .cta-btn {
+      display: block;
+      width: max-content;
+      background: #e60023;
+      color: #fff;
+      padding: 0.8rem 1.4rem;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 4px;
+      margin: 1rem auto;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+      transition: background 0.3s ease;
+    }
+    .cta-btn:hover {
+      background: #c4001f;
+    }
+
+    section {
+      margin-top: 2rem;
+    }
+    section h2 {
+      color: #0077cc;
+      margin-bottom: 0.6rem;
+    }
+    section p {
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      margin: 2rem 0;
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.4rem; }
+      .gallery { flex-direction: column; align-items: center; }
+    }
   </style>
 </head>
 <body>
-
   <header>
     <h1>Mini Taladro Eléctrico Multiuso</h1>
-    <p>Potente, portátil y perfecto para tus proyectos</p>
+    <p>Potente, portátil y perfecto para tus proyectosDIY</p>
   </header>
 
   <div class="container">
     <div class="gallery">
-      <img src="https://ae01.alicdn.com/kf/…1.jpg" alt="Mini taladro vista frontal">
-      <img src="https://ae01.alicdn.com/kf/…2.jpg" alt="Accesorios disponibles">
+      <img src="https://ae01.alicdn.com/kf/HTB1aEXlreL85uJjSZPhq6zHrpXa6.jpg" alt="Mini taladro frontal">
+      <img src="https://ae01.alicdn.com/kf/HTB1bXlTreL85uJjSZFhq6zZ4XXaD.jpg" alt="Mini taladro accesorios">
     </div>
 
-    <p class="price">US$38.84</p>
+    <p class="price">US$ 38.84</p>
 
     <div class="features">
-      <h2>Características principales:</h2>
+      <h2>Características principales</h2>
       <ul>
-        <li>Velocidad variable con giro reversible (0‑8000 RPM)</li>
-        <li>Aceite lubricante incluido y luz LED integrada</li>
-        <li>Diseño ergonómico compacto (ideal para bricolaje y manualidades)</li>
-        <li>Accesorios (brocas, lijas, cepillos) disponibles por separado</li>
+        <li>Velocidad variable con giro reversible (0–8000 RPM)</li>
+        <li>Luz LED integrada para zonas oscuras</li>
+        <li>Diseño ergonómico compacto</li>
+        <li>Accesorios opcionales: brocas, lijas y cepillos</li>
       </ul>
     </div>
 
@@ -48,17 +127,20 @@
       Ver en AliExpress
     </a>
 
-    <section style="margin-top:40px;">
+    <section>
       <h2>Descripción</h2>
       <p>
-        Este mini taladro eléctrico es la herramienta perfecta para trabajos de precisión en madera, metal o plástico. Su tamaño compacto permite un uso cómodo, y la capacidad de ajuste de velocidad facilita desde trabajos delicados hasta tareas que requieran mayor fuerza. Ideal para hobby, bricolaje o uso doméstico.
+        Este mini taladro eléctrico es la herramienta perfecta para trabajos de precisión en madera, metal y plástico. Su tamaño compacto y ajuste de velocidad permiten labores delicadas o de mayor fuerza según lo necesites.
       </p>
+    </section>
+
+    <section>
+      <h2>Preguntas frecuentes (FAQ)</h2>
+      <p><strong>¿Incluye batería?</strong><br>No, se conecta directamente a corriente y trae aceite lubricante.</p>
+      <p><strong>¿Viene con garantía?</strong><br>Sí, garantía de 1 año y servicio postventa en AliExpress.</p>
     </section>
   </div>
 
-  <footer>
-    &copy; 2025 Tu Tienda • Contacto: info@tutienda.com
-  </footer>
-
+  <footer>&copy; 2025 Tu Tienda. Todos los derechos reservados.</footer>
 </body>
 </html>
